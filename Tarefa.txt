@@ -1,4 +1,7 @@
 #Mestranda: Brenda Rocha
+#Tarefa 1
+
+#Clonando o repositório ser-347
 
 C:\Users\Brenda>git clone https://github.com/brendarocha1/ser-347
 Cloning into 'ser-347'...
@@ -74,11 +77,19 @@ C:\Users\Brenda\ser-347>dir /ah
                0 arquivo(s)              0 bytes
                1 pasta(s)   339.052.933.120 bytes disponíveis
 
+
+#Verificando o status do repositório
+
+
 C:\Users\Brenda\ser-347>git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
+
+
+#Modificando o arquivo no repositório ser-347
+
 
 C:\Users\Brenda\ser-347>git status
 On branch main
@@ -100,6 +111,9 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   README.md
+
+
+#Confirmando e salvando todas as modificações realizadas
 
 
 C:\Users\Brenda\ser-347>git commit -m "Primeira versão do arquivo README.md"
@@ -135,6 +149,10 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 nothing to commit, working tree clean
 
+
+#Sincronizando a cópia local com o repositório remoto
+
+
 C:\Users\Brenda\ser-347>git pull
 Already up to date.
 
@@ -158,6 +176,10 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/brendarocha1/ser-347
    1b00991..50b51ea  main -> main
+
+
+#Adicionando um novo arquivo ao repositório
+
 
 C:\Users\Brenda\ser-347>git status
 On branch main
